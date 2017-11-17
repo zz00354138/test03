@@ -1,7 +1,7 @@
 FROM java:8-jdk
 
 WORKDIR /home/apps/
-ADD target/test03label-1.0.0.jar .
+ADD target/test03-1.0.0.jar .
 ADD target/lib ./lib
 ADD start.sh .
 
